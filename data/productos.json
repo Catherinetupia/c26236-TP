@@ -1,0 +1,6 @@
+[
+  { "id": "1", "nombre": "Croquetas NutriGato Balance", "descripcion": "Alimento premium completo y equilibrado para gatos adultos activos.", "img": "img/comida1.png", "precio": 7500 },
+  { "id": "2", "nombre": "Croquetas Gato FitLine", "descripcion": "Fórmula baja en calorías para el control de peso.", "img": "img/comida2.png", "precio": 9500 },
+  { "id": "3", "nombre": "Croquetas NutriPerro Balance", "descripcion": "Alimento premium completo y equilibrado para perros adultos activos.", "img": "img/ComidaPerro1.png", "precio": 7500 },
+  { "id": "4", "nombre": "Croquetas Perro FitLine", "descripcion": "Fórmula baja en calorías para el control de peso.", "img": "img/ComidaPerro2.png", "precio": 9500 }
+]

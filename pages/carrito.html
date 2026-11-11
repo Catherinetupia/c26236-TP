@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,600;0,700;0,800;1,100;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />    
+    <title>Carrito</title>
+    <link rel="stylesheet" href="../css/styles.css"/>
+</head>
+
+<body>
+    <header class="header">
+       <div class="div-logo"><a class="logo" href="../index.html">Salem Snacks</a></div> 
+       <nav class="header-nav">
+        <ul>
+            <li>
+                <a href="../index.html">Inicio</a>
+            </li>
+            <li>
+                <a href="./contacto.html">Contacto</a>
+            </li>
+            <li>
+                <a href="./carrito.html" class="carrito-icono">
+                    Carrito<span id="contador-carrito"></span>
+                </a>
+            </li>
+        </ul>
+       </nav>
+    </header>
+
+    <main>
+        <h1 class="text-secondary">Carrito de compras</h1>
+        <section id="contenedor-carrito" class="contenedor-tarjetas"></section>
+        <div class="acciones-carrito" id="acciones-carrito"></div>
+        <section id="resumen-carrito"></section>
+    </main>
+    
+    <footer class="footer">
+        <p>Sitio realizado por Catherine Tupia Caypo para Talento Tech</p>
+      <nav>
+        <ul class="footer-list">
+          <li><img src="../img/whatsapp.jpg" alt="logo-whatsapp" /></li>
+          <li><img src="../img/instagram.jpg" alt="logo-instagram" /></li>
+        </ul>
+      </nav>
+    </footer>
+    <script type="module" src="../js/carrito.js"></script>
+</body>
+</html>
