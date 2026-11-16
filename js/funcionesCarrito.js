@@ -24,5 +24,5 @@ export const eliminarProducto = (indice) => {
 export const vaciarCarrito = () => {
     vaciarCarritoStorage();
     actualizarContador([]);
-    mostrarMensaje("Carrito vacio");
+    mostrarMensaje("Carrito vacío");
 };

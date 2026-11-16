@@ -16,7 +16,7 @@ const renderizarCarrito = () => {
     if(!carrito.length){
         const mensaje = document.createElement("p");
         mensaje.classList.add("mensaje-carrito-vacio");
-        mensaje.textContent = "Tu carrito esta vacio.";
+        mensaje.textContent = "Tu carrito está vacío.";
 
         contenedor.appendChild(mensaje);
 
