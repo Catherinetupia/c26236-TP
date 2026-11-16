@@ -8,7 +8,7 @@ export const agregarAlCarrito = (producto) => {
     guardarCarrito(carrito);
 
     actualizarContador(carrito);
-    mostrarMensaje("Producto agregado al carrito.");
+    mostrarMensaje("Producto agregado al carrito");
 };
 
 export const eliminarProducto = (indice) => {
@@ -18,11 +18,11 @@ export const eliminarProducto = (indice) => {
     guardarCarrito(carrito);
 
     actualizarContador(carrito);
-    mostrarMensaje("Producto eliminado.");
+    mostrarMensaje("Producto eliminado");
 };
 
 export const vaciarCarrito = () => {
     vaciarCarritoStorage();
     actualizarContador([]);
-    mostrarMensaje("Carrito vacio.")
-}
+    mostrarMensaje("Carrito vacio");
+};

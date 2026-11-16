@@ -16,12 +16,16 @@
         <div class="div-logo"><a class="logo" href="../index.html">Salem Snacks</a></div>
 
         <nav class="header-nav">
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-                <li><a href="./carrito.html">Carrito</a></li>
-            </ul>
-        </nav>
+        <ul>
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="./contacto.html">Contacto</a></li>
+          <li>
+            <a href="./carrito.html" class="carrito-icono"
+              >🛒<span id="contador-carrito"></span
+            ></a>
+          </li>
+        </ul>
+      </nav>
     </header>
 
     <main>
@@ -37,7 +41,7 @@
           <label for="mensaje">Tu mensaje</label>
           <textarea id="mensaje" name="message" required></textarea>
         </div>
-        <button class="btn bg-secondary text-dark" type="submit">Enviar</button>
+        <button class="btn" type="submit">Enviar</button>
       </form>
       </section> 
     </main>
@@ -51,5 +55,6 @@
         </ul>
       </nav>
     </footer>
+    <script src="../js/contacto.js" type="module"></script>
 </body>
 </html>

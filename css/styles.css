@@ -48,11 +48,13 @@ h2{
 
 .btn{
     background: #d98a3d;
+    color: #000000;
     border: none;
     font-size: 1.6rem;
     font-weight: bold;
     padding: 1.6rem;
     border-radius: 1rem;
+    cursor: pointer;
 }
 
 header,
@@ -261,11 +263,16 @@ footer{
 /* -------------------------------------------------------------------------- */
 /*                                   CARRITO                                  */
 /* -------------------------------------------------------------------------- */
-#contador-carrito{
-    margin-left: 0.5rem;
-    font-size: 1.6rem;
+.mensaje-carrito-vacio{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 2rem;
 }
 
-#contador-carrito:empty{
-    display: none;
+.acciones-carrito{
+    margin-top: 2rem;
+}
+
+#contador-carrito{
+    margin-left: 0.5rem;
 }
